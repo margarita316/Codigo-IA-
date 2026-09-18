@@ -1,0 +1,16 @@
+======================================================================
+metodo3_deepdtagen_lite | dataset=DAVIS
+======================================================================
+Verificacion de duplicados: {'pares_duplicados': 0, 'drug_id_con_smiles_duplicado': 0, 'target_id_con_secuencia_duplicada': 0}
+Pares: 25772 | dim_farmaco=217 | dim_proteina=578
+  repeat=00 fold=0 CI=0.6709 RMSE=0.7226 MSE=0.5222 R2=-0.0007 (t=236s)
+  repeat=00 fold=1 CI=0.7001 RMSE=0.7327 MSE=0.5369 R2=0.1103 (t=439s)
+  repeat=00 fold=2 CI=0.6700 RMSE=1.1037 MSE=1.2182 R2=-0.1654 (t=660s)
+  repeat=00 fold=3 CI=0.6775 RMSE=0.8070 MSE=0.6512 R2=0.0340 (t=890s)
+  repeat=00 fold=4 CI=0.7092 RMSE=0.7351 MSE=0.5404 R2=0.0024 (t=1157s)
+  repeat=01 fold=0 CI=0.6828 RMSE=0.7783 MSE=0.6058 R2=-0.1036 (t=1442s)
+  repeat=01 fold=1 CI=0.6775 RMSE=0.7733 MSE=0.5980 R2=0.0755 (t=1828s)
+  repeat=01 fold=2 CI=0.6992 RMSE=0.8444 MSE=0.7130 R2=0.0658 (t=2143s)
+  repeat=01 fold=3 CI=0.7095 RMSE=0.8779 MSE=0.7708 R2=0.1736 (t=2471s)
+  repeat=01 fold=4 CI=0.7239 RMSE=0.6700 MSE=0.4489 R2=0.1124 (t=2845s)
+  repeat=02 fold=0 CI=0.6895 RMSE=0.9485 MSE=0.8997 R2=0.0403 (t=3225s)

@@ -1,0 +1,62 @@
+======================================================================
+metodo1_ssmdta_lite_v2 | dataset=DAVIS | ablacion=completa
+======================================================================
+Verificacion de duplicados: {'pares_duplicados': 0, 'drug_id_con_smiles_duplicado': 0, 'target_id_con_secuencia_duplicada': 0}
+Pares: 25772 | dim_farmaco_completo=729 | dim_proteina_completo=638
+Split fijo (clustering quimico): {'n_farmacos': 68, 'n_clusters': 64, 'corte_distancia': 0.4, 'tamano_clusters': [2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+  repeat=00 fold=0 CI=0.6920 RMSE=0.7832 MSE=0.6134 R2=0.1403 (t=478s)
+  repeat=00 fold=1 CI=0.6140 RMSE=0.9109 MSE=0.8298 R2=-0.0089 (t=850s)
+  repeat=00 fold=2 CI=0.6707 RMSE=0.6792 MSE=0.4614 R2=-0.3677 (t=1205s)
+  repeat=00 fold=3 CI=0.7649 RMSE=0.8279 MSE=0.6855 R2=0.1808 (t=1545s)
+  repeat=00 fold=4 CI=0.6085 RMSE=0.8869 MSE=0.7866 R2=-0.1334 (t=1902s)
+  repeat=01 fold=0 CI=0.7322 RMSE=0.8457 MSE=0.7151 R2=0.2023 (t=2243s)
+  repeat=01 fold=1 CI=0.5571 RMSE=0.8069 MSE=0.6511 R2=-0.0463 (t=2633s)
+  repeat=01 fold=2 CI=0.6233 RMSE=0.8257 MSE=0.6818 R2=-0.1417 (t=2981s)
+  repeat=01 fold=3 CI=0.5673 RMSE=0.8067 MSE=0.6507 R2=-0.0808 (t=3359s)
+  repeat=01 fold=4 CI=0.6150 RMSE=0.8764 MSE=0.7681 R2=-0.0842 (t=3679s)
+  repeat=02 fold=0 CI=0.6495 RMSE=0.7276 MSE=0.5294 R2=-0.0730 (t=3933s)
+  repeat=02 fold=1 CI=0.6267 RMSE=0.9749 MSE=0.9504 R2=0.0860 (t=4206s)
+  repeat=02 fold=2 CI=0.6249 RMSE=0.8850 MSE=0.7831 R2=0.0256 (t=4438s)
+  repeat=02 fold=3 CI=0.6731 RMSE=0.7895 MSE=0.6233 R2=-0.0377 (t=4708s)
+  repeat=02 fold=4 CI=0.6110 RMSE=0.7701 MSE=0.5931 R2=-0.5637 (t=5005s)
+  repeat=03 fold=0 CI=0.7513 RMSE=0.6460 MSE=0.4174 R2=0.1074 (t=5338s)
+  repeat=03 fold=1 CI=0.6676 RMSE=0.9106 MSE=0.8292 R2=0.0986 (t=5710s)
+  repeat=03 fold=2 CI=0.6009 RMSE=0.9941 MSE=0.9883 R2=0.0361 (t=6018s)
+  repeat=03 fold=3 CI=0.5407 RMSE=0.8086 MSE=0.6538 R2=-0.3050 (t=6283s)
+  repeat=03 fold=4 CI=0.5881 RMSE=0.7002 MSE=0.4903 R2=-0.3387 (t=6544s)
+  repeat=04 fold=0 CI=0.6657 RMSE=0.7586 MSE=0.5755 R2=0.0743 (t=6797s)
+  repeat=04 fold=1 CI=0.7023 RMSE=0.9079 MSE=0.8243 R2=0.1807 (t=7116s)
+  repeat=04 fold=2 CI=0.7093 RMSE=0.8032 MSE=0.6452 R2=0.1332 (t=7507s)
+  repeat=04 fold=3 CI=0.7009 RMSE=0.7033 MSE=0.4946 R2=-0.0732 (t=7766s)
+  repeat=04 fold=4 CI=0.6172 RMSE=0.7482 MSE=0.5598 R2=-0.0290 (t=8017s)
+  repeat=05 fold=0 CI=0.7717 RMSE=0.8073 MSE=0.6517 R2=0.1806 (t=8289s)
+  repeat=05 fold=1 CI=0.6236 RMSE=0.7151 MSE=0.5113 R2=-0.1355 (t=8553s)
+  repeat=05 fold=2 CI=0.6399 RMSE=0.7625 MSE=0.5815 R2=0.0173 (t=8799s)
+  repeat=05 fold=3 CI=0.6652 RMSE=0.9378 MSE=0.8795 R2=0.0729 (t=9068s)
+  repeat=05 fold=4 CI=0.5757 RMSE=0.8336 MSE=0.6950 R2=-0.1420 (t=9331s)
+  repeat=06 fold=0 CI=0.6228 RMSE=0.7126 MSE=0.5078 R2=0.0381 (t=9697s)
+  repeat=06 fold=1 CI=0.6508 RMSE=0.7708 MSE=0.5942 R2=-0.0779 (t=10058s)
+  repeat=06 fold=2 CI=0.7614 RMSE=0.7827 MSE=0.6126 R2=0.2520 (t=10397s)
+  repeat=06 fold=3 CI=0.6596 RMSE=0.8730 MSE=0.7622 R2=0.1493 (t=10724s)
+  repeat=06 fold=4 CI=0.5621 RMSE=0.8702 MSE=0.7573 R2=-0.2411 (t=11072s)
+  repeat=07 fold=0 CI=0.6836 RMSE=0.7057 MSE=0.4980 R2=-0.4287 (t=11454s)
+  repeat=07 fold=1 CI=0.6689 RMSE=0.7153 MSE=0.5117 R2=0.0804 (t=11775s)
+  repeat=07 fold=2 CI=0.5697 RMSE=1.1010 MSE=1.2121 R2=-0.0259 (t=12088s)
+  repeat=07 fold=3 CI=0.5935 RMSE=0.9064 MSE=0.8216 R2=-0.1516 (t=12334s)
+  repeat=07 fold=4 CI=0.7972 RMSE=0.6364 MSE=0.4049 R2=0.2146 (t=12580s)
+  repeat=08 fold=0 CI=0.5685 RMSE=0.8228 MSE=0.6771 R2=-0.1103 (t=12798s)
+  repeat=08 fold=1 CI=0.5880 RMSE=0.8137 MSE=0.6621 R2=-0.3965 (t=13037s)
+  repeat=08 fold=2 CI=0.7112 RMSE=0.9205 MSE=0.8473 R2=0.1428 (t=13273s)
+  repeat=08 fold=3 CI=0.6582 RMSE=0.8547 MSE=0.7305 R2=0.1369 (t=13481s)
+  repeat=08 fold=4 CI=0.6260 RMSE=0.7815 MSE=0.6108 R2=-0.2505 (t=13681s)
+  repeat=09 fold=0 CI=0.6662 RMSE=0.7997 MSE=0.6395 R2=0.0638 (t=13901s)
+  repeat=09 fold=1 CI=0.6430 RMSE=0.9249 MSE=0.8554 R2=0.0792 (t=14124s)
+  repeat=09 fold=2 CI=0.6641 RMSE=0.7045 MSE=0.4964 R2=-0.0431 (t=14339s)
+  repeat=09 fold=3 CI=0.7063 RMSE=0.8253 MSE=0.6811 R2=0.1280 (t=14542s)
+  repeat=09 fold=4 CI=0.5972 RMSE=0.7417 MSE=0.5501 R2=-0.0459 (t=14731s)
+
+=== metodo1_ssmdta_lite_v2 | DAVIS | media +/- desviacion estandar (5x10 folds) ===
+CI    : 0.6490 +/- 0.0608
+RMSE  : 0.8139 +/- 0.0934
+MSE   : 0.6711 +/- 0.1569
+R2    : -0.0302 +/- 0.1836

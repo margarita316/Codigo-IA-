@@ -1,0 +1,20 @@
+{
+  "metodo": "metodo1_ssmdta_lite",
+  "dataset": "DAVIS",
+  "n_pares": 25772,
+  "n_splits": 5,
+  "n_repeats": 10,
+  "seed": 42,
+  "hiperparametros": {
+    "lr": 0.001,
+    "max_epochs": 25,
+    "paciencia": 5,
+    "batch_size": 256,
+    "weight_decay": 0.01
+  },
+  "duplicados": {
+    "pares_duplicados": 0,
+    "drug_id_con_smiles_duplicado": 0,
+    "target_id_con_secuencia_duplicada": 0
+  }
+}

@@ -1,0 +1,149 @@
+======================================================================
+baseline_ridge | dataset=DAVIS
+======================================================================
+Verificacion de duplicados: {'pares_duplicados': 0, 'drug_id_con_smiles_duplicado': 0, 'target_id_con_secuencia_duplicada': 0}
+Split fijo (clustering quimico): {'n_farmacos': 68, 'n_clusters': 64, 'corte_distancia': 0.4, 'tamano_clusters': [2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 9.821438595736254e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=00 fold=0 alpha=10.0 CI=0.6421 RMSE=0.8072 MSE=0.6516 R2=0.0868 (t=149s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.617438851388215e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=00 fold=1 alpha=0.1 CI=0.6414 RMSE=0.9024 MSE=0.8143 R2=0.0100 (t=289s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1466379135072202e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=00 fold=2 alpha=100.0 CI=0.6905 RMSE=0.6504 MSE=0.4231 R2=-0.2541 (t=437s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 9.33735222474752e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=00 fold=3 alpha=0.1 CI=0.7906 RMSE=0.7918 MSE=0.6270 R2=0.2508 (t=563s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 9.036632775405451e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=00 fold=4 alpha=0.1 CI=0.5401 RMSE=1.0574 MSE=1.1180 R2=-0.6108 (t=688s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.084025893140279e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=01 fold=0 alpha=0.1 CI=0.6082 RMSE=0.9496 MSE=0.9018 R2=-0.0059 (t=824s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 9.674014478378012e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=01 fold=1 alpha=10.0 CI=0.6249 RMSE=0.8084 MSE=0.6535 R2=-0.0502 (t=957s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 9.932440292459432e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=01 fold=2 alpha=0.1 CI=0.6249 RMSE=0.8811 MSE=0.7764 R2=-0.3001 (t=1083s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 9.244339338465579e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=01 fold=3 alpha=0.1 CI=0.6388 RMSE=0.8210 MSE=0.6741 R2=-0.1196 (t=1194s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.040486676463843e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=01 fold=4 alpha=0.1 CI=0.5696 RMSE=0.8636 MSE=0.7458 R2=-0.0527 (t=1306s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.0010003848037741e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=02 fold=0 alpha=10.0 CI=0.6133 RMSE=0.7544 MSE=0.5691 R2=-0.1536 (t=1429s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1487499307349935e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=02 fold=1 alpha=10.0 CI=0.6742 RMSE=0.9409 MSE=0.8853 R2=0.1486 (t=1550s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.0900393476731551e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=02 fold=2 alpha=0.1 CI=0.6540 RMSE=0.8916 MSE=0.7950 R2=0.0109 (t=1672s)
+  repeat=02 fold=3 alpha=10.0 CI=0.7178 RMSE=0.7258 MSE=0.5268 R2=0.1229 (t=1779s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1759515672338239e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=02 fold=4 alpha=0.1 CI=0.6997 RMSE=0.7439 MSE=0.5534 R2=-0.4589 (t=1887s)
+  repeat=03 fold=0 alpha=0.1 CI=0.6782 RMSE=0.7096 MSE=0.5035 R2=-0.0769 (t=2008s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 6.909317562531214e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=03 fold=1 alpha=10.0 CI=0.5446 RMSE=1.0872 MSE=1.1821 R2=-0.2851 (t=2129s)
+  repeat=03 fold=2 alpha=10.0 CI=0.6023 RMSE=0.9635 MSE=0.9283 R2=0.0946 (t=2248s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1587201242946321e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=03 fold=3 alpha=0.1 CI=0.6193 RMSE=0.7570 MSE=0.5730 R2=-0.1436 (t=2356s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 9.018730651177975e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=03 fold=4 alpha=10.0 CI=0.5168 RMSE=0.7099 MSE=0.5040 R2=-0.3763 (t=2463s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.0496216873434605e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=04 fold=0 alpha=0.1 CI=0.4884 RMSE=0.9138 MSE=0.8350 R2=-0.3430 (t=2582s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 7.60541354338784e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=04 fold=1 alpha=0.1 CI=0.6413 RMSE=0.9782 MSE=0.9569 R2=0.0489 (t=2700s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.248583327485903e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=04 fold=2 alpha=0.1 CI=0.7482 RMSE=0.7748 MSE=0.6004 R2=0.1934 (t=2819s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.607463541920879e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=04 fold=3 alpha=0.1 CI=0.6531 RMSE=0.7712 MSE=0.5947 R2=-0.2903 (t=2927s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 9.887339302849796e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=04 fold=4 alpha=10.0 CI=0.6756 RMSE=0.7493 MSE=0.5614 R2=-0.0321 (t=3033s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1090869378449497e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=05 fold=0 alpha=0.1 CI=0.6953 RMSE=0.8187 MSE=0.6703 R2=0.1572 (t=3152s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.012577978888658e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=05 fold=1 alpha=0.1 CI=0.6697 RMSE=0.7358 MSE=0.5414 R2=-0.2022 (t=3271s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.088986902521356e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=05 fold=2 alpha=1.0 CI=0.5804 RMSE=1.0874 MSE=1.1825 R2=-0.9984 (t=3391s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1216945239311826e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=05 fold=3 alpha=0.1 CI=0.6771 RMSE=0.9223 MSE=0.8507 R2=0.1032 (t=3498s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1251754017393978e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=05 fold=4 alpha=0.1 CI=0.6095 RMSE=0.8327 MSE=0.6934 R2=-0.1394 (t=3604s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.764644121583842e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=06 fold=0 alpha=10.0 CI=0.6085 RMSE=0.7450 MSE=0.5551 R2=-0.0514 (t=3722s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1174545022640814e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=06 fold=1 alpha=1.0 CI=0.5220 RMSE=0.8754 MSE=0.7663 R2=-0.3901 (t=3841s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.0681558393343948e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=06 fold=2 alpha=1.0 CI=0.7141 RMSE=0.8297 MSE=0.6884 R2=0.1595 (t=3961s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.454307476313261e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=06 fold=3 alpha=100.0 CI=0.6565 RMSE=0.9244 MSE=0.8545 R2=0.0463 (t=4067s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 7.530378809406102e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=06 fold=4 alpha=10.0 CI=0.4808 RMSE=0.9613 MSE=0.9240 R2=-0.5144 (t=4173s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1198549287882997e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=07 fold=0 alpha=0.1 CI=0.5922 RMSE=0.6745 MSE=0.4550 R2=-0.3053 (t=4291s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.521481476009285e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=07 fold=1 alpha=0.1 CI=0.6730 RMSE=0.7541 MSE=0.5686 R2=-0.0219 (t=4411s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.603652901228998e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=07 fold=2 alpha=0.1 CI=0.6488 RMSE=1.0713 MSE=1.1477 R2=0.0286 (t=4530s)
+  repeat=07 fold=3 alpha=10.0 CI=0.6344 RMSE=0.8259 MSE=0.6820 R2=0.0440 (t=4636s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 7.168898008558244e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=07 fold=4 alpha=0.1 CI=0.7199 RMSE=0.7197 MSE=0.5180 R2=-0.0048 (t=4742s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.00328834316133e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=08 fold=0 alpha=0.1 CI=0.6141 RMSE=0.8170 MSE=0.6674 R2=-0.0944 (t=4864s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.0894830637653286e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=08 fold=1 alpha=10.0 CI=0.6806 RMSE=0.7674 MSE=0.5890 R2=-0.2422 (t=4986s)
+  repeat=08 fold=2 alpha=0.1 CI=0.6283 RMSE=1.0136 MSE=1.0273 R2=-0.0393 (t=5105s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 7.613312646981285e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=08 fold=3 alpha=0.1 CI=0.5285 RMSE=0.9683 MSE=0.9375 R2=-0.1077 (t=5213s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.28219626214377e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=08 fold=4 alpha=0.1 CI=0.6286 RMSE=0.7494 MSE=0.5616 R2=-0.1497 (t=5319s)
+  repeat=09 fold=0 alpha=0.1 CI=0.6991 RMSE=0.8559 MSE=0.7325 R2=-0.0723 (t=5438s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 9.88510961974498e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=09 fold=1 alpha=0.1 CI=0.6029 RMSE=0.9650 MSE=0.9313 R2=-0.0025 (t=5559s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.693173469964677e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=09 fold=2 alpha=0.1 CI=0.6837 RMSE=0.7476 MSE=0.5589 R2=-0.1745 (t=5679s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.0342354528347641e-07.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=09 fold=3 alpha=0.1 CI=0.6337 RMSE=0.8789 MSE=0.7724 R2=0.0111 (t=5785s)
+C:\Users\marga\AppData\Local\Temp\claude\mindg_davis_venv\Lib\site-packages\sklearn\linear_model\_ridge.py:227: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.007697260836721e-08.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+  repeat=09 fold=4 alpha=0.1 CI=0.6271 RMSE=0.9348 MSE=0.8739 R2=-0.6615 (t=5892s)
+
+=== baseline_ridge | DAVIS | media +/- desviacion estandar ===
+CI    : 0.6341 +/- 0.0644
+RMSE  : 0.8496 +/- 0.1118
+MSE   : 0.7341 +/- 0.1958
+R2    : -0.1242 +/- 0.2404
