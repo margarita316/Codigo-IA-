@@ -1,5 +1,7 @@
 # Material anterior
 
+O estudo atual (2026) está em estudo_davis150_5folds/, e o relatório técnico e o material de apoio, em PDF, estão na raiz do repositório.
+
 Esta pasta reúne os arquivos que já estavam publicados neste repositório **antes do estudo de 2026**. Eles foram apenas movidos para cá, sem alterar o conteúdo, para ficarem separados do estudo atual.
 
 **Estes arquivos não correspondem aos resultados do resumo submetido ao EICTI 2026.** Os códigos, as partições, as predições e as métricas daquele estudo estão em [`../estudo_davis150_5folds/`](../estudo_davis150_5folds/).
