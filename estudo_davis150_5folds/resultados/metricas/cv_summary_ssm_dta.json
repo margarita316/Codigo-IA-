@@ -1,0 +1,33 @@
+{
+  "per_fold": [
+    {
+      "fold": 0,
+      "test_mse": 0.405,
+      "test_rmse": 0.636
+    },
+    {
+      "fold": 1,
+      "test_mse": 0.535,
+      "test_rmse": 0.731
+    },
+    {
+      "fold": 2,
+      "test_mse": 0.333,
+      "test_rmse": 0.577
+    },
+    {
+      "fold": 3,
+      "test_mse": 1.564,
+      "test_rmse": 1.251
+    },
+    {
+      "fold": 4,
+      "test_mse": 1.407,
+      "test_rmse": 1.186
+    }
+  ],
+  "rmse_mean": 0.8762000000000001,
+  "rmse_std": 0.28451741598714125,
+  "mse_mean": 0.8488,
+  "mse_std": 0.5262274793280943
+}
