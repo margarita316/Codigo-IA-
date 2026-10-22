@@ -1,12 +1,3 @@
-"""Orquesta el entrenamiento SSM-DTA baseline (dti_separate, roberta_dti_cross_attn)
-con validacion cruzada sobre DAVIS. Por cada fold:
-  1) entrena --max-epoch epocas (con checkpoint/resume automatico de fairseq)
-  2) evalua checkpoint_best.pt sobre el subset "test" del fold con validate.py
-  3) extrae RMSE/MSE del log y las guarda
-
-Al final imprime y guarda un resumen con media +/- desviacion estandar
-de las 3 (o N) corridas.
-"""
 import argparse
 import json
 import re

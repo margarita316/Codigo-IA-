@@ -1,8 +1,3 @@
-"""Extrae predicciones crudas por par (no solo el RMSE agregado) del set de
-test de cada fold de SSM-DTA, usando el checkpoint_best.pt ya entrenado.
-Sirve como insumo para armar un ensamble con otro metodo (p.ej. SubMDTA)
-sin tener que reentrenar nada.
-"""
 import argparse
 import subprocess
 from pathlib import Path
