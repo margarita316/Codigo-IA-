@@ -2,7 +2,12 @@
 
 Material de iniciação científica sobre a predição de interações fármaco-alvo (DTI) com algoritmos de inteligência artificial (UNILA).
 
-Este repositório tem **duas partes independentes**. Para evitar confusão, cada uma fica em pastas separadas.
+Este repositório tem **duas pastas independentes, que não se misturam**:
+
+| Pasta | O que contém |
+|---|---|
+| [`estudo_davis150_5folds/`](estudo_davis150_5folds/) | **Estudo atual (2026).** Resumo submetido, apresentação, códigos, partições, predições e métricas. |
+| [`material_anterior/`](material_anterior/) | **Material enviado antes do estudo atual.** Versões anteriores dos experimentos. |
 
 ## 1. Estudo atual (2026): comparação padronizada no DAVIS
 
@@ -12,11 +17,11 @@ Este repositório tem **duas partes independentes**. Para evitar confusão, cada
 
 Comece pelo [`README.md`](estudo_davis150_5folds/README.md) dessa pasta.
 
-## 2. Material enviado anteriormente (versões anteriores)
+## 2. Material enviado anteriormente
 
-**Pastas: [`cache/`](cache/) e [`resultados/`](resultados/)**
+**Pasta: [`material_anterior/`](material_anterior/)** (contém `cache/` e `resultados/`)
 
-São arquivos enviados antes do estudo atual (versões anteriores dos experimentos, com variantes "lite" e "v2"). Foram mantidos sem alterações e **não correspondem aos resultados do resumo EICTI 2026**. Os números do estudo atual estão somente na pasta `estudo_davis150_5folds/`.
+São arquivos enviados antes do estudo atual (versões anteriores dos experimentos, com variantes "lite" e "v2"). Foram apenas movidos para esta pasta, sem alterar o conteúdo, e **não correspondem aos resultados do resumo EICTI 2026**. Os números do estudo atual estão somente na pasta `estudo_davis150_5folds/`.
 
 ## Licença
 
