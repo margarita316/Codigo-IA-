@@ -1,5 +1,7 @@
 # Comparação padronizada de SSM-DTA, SubMDTA e ensemble na predição de afinidade fármaco-alvo (DAVIS)
 
+Documentos na raiz do repositório: Relatorio_IC_DAVIS_SSMDTA_SubMDTA_ABNT.pdf (relatório técnico, ABNT) e Material_de_Apoio_EICTI2026.pdf (material de apoio da apresentação).
+
 Material complementar do trabalho **"Predição de propriedades de interações entre fármacos e receptores por meio de algoritmos de inteligência artificial"**, apresentado no XV Encontro Anual de Iniciação Científica e XI Encontro de Iniciação em Desenvolvimento Tecnológico e Inovação (EICTI), 8ª SIEPE, UNILA.
 
 Este diretório reúne, em um único lugar, os documentos, os códigos, os dados de partição, as predições e as métricas usadas no estudo, para que a comparação possa ser verificada.
