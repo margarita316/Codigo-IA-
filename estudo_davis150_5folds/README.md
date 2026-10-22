@@ -4,6 +4,8 @@ Material complementar do trabalho **"Predição de propriedades de interações 
 
 Este diretório reúne, em um único lugar, os documentos, os códigos, os dados de partição, as predições e as métricas usadas no estudo, para que a comparação possa ser verificada.
 
+> Esta pasta contém apenas o estudo de 2026. Os arquivos publicados anteriormente neste repositório estão separados em [`../material_anterior/`](../material_anterior/) e não fazem parte dos resultados abaixo.
+
 ## Resumo do estudo
 
 Dois métodos da literatura de predição de afinidade fármaco-alvo (DTI) foram avaliados **sob condições idênticas**, mantendo suas arquiteturas originais inalteradas:
