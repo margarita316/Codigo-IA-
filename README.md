@@ -2,6 +2,8 @@
 
 Material de iniciação científica sobre a predição de interações fármaco-alvo (DTI) com algoritmos de inteligência artificial (UNILA).
 
+Documentos principais: Relatorio_IC_DAVIS_SSMDTA_SubMDTA_ABNT.pdf (relatório técnico, ABNT) e Material_de_Apoio_EICTI2026.pdf (material de apoio da apresentação).
+
 Este repositório tem **duas pastas independentes, que não se misturam**:
 
 | Pasta | O que contém |
