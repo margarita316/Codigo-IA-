@@ -1,12 +1,3 @@
-"""SubMDTA con 5-fold CV sobre la misma submuestra de 150 pares de DAVIS
-(reutiliza los mismos splits ya generados para SSM-DTA en data_raw150,
-para que ambos metodos sean comparables/ensemblables par a par).
-
-Arquitectura SIN MODIFICAR: GINConvNet + GraphEnhance (sub_50000.pth
-preentrenado), tal cual estan en models/ginconv.py y sub.py.
-Solo se adapta el pipeline de datos (create_data.py) para nuestra CV
-y se reduce NUM_EPOCHS de 1200 a 25 (pedido explicito del usuario).
-"""
 import argparse
 import json
 import time
@@ -26,8 +17,6 @@ from utils import TestbedDataset, rmse, mse, pearson, spearman, ci, get_rm2
 
 import re
 
-
-# ---- funciones copiadas de create_data.py (pipeline de datos, sin tocar el modelo) ----
 
 def one_of_k_encoding(x, allowable_set):
     if x not in allowable_set:
