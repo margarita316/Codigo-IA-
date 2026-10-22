@@ -1,19 +1,3 @@
-"""Prepara DAVIS (davis.tab) en 5 folds de validacion cruzada para SSM-DTA.
-
-Por cada fold k (0..4):
-  - test  = pares del fold k
-  - resto = pares de los otros 4 folds, dividido 90/10 en train/valid
-
-Genera, dentro de --out-dir/fold{k}/:
-  {train,valid,test}.mol.can.re   (SMILES canonicalizado y tokenizado)
-  {train,valid,test}.pro.addspace (secuencia de proteina con espacios)
-  {train,valid,test}.label        (pKd, un valor por linea)
-
-Las tres vistas (mol/pro/label) se filtran juntas para no perder alineacion
-cuando una SMILES no es valida o no tokeniza (a diferencia de los scripts
-canonicalize.py/tokenize_re.py sueltos, que descartan lineas de forma
-independiente).
-"""
 import argparse
 import re
 from pathlib import Path
