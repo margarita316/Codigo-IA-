@@ -2,7 +2,7 @@ import json
 
 import numpy as np
 from pathlib import Path
-RAIZ = Path(__file__).resolve().parents[2]  # raiz do estudo (pasta estudo_davis150_5folds)
+RAIZ = Path(__file__).resolve().parents[2]
 
 
 def rmse(a, b):
