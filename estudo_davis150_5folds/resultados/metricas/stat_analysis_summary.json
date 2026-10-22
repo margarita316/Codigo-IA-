@@ -1,0 +1,38 @@
+[
+  {
+    "comparacion": "SSM-DTA vs SubMDTA",
+    "media_a": 0.8763060178265807,
+    "media_b": 1.1263238609945787,
+    "diferencia_media": -0.25001784316799797,
+    "t_pareado": -2.264959752862932,
+    "p_valor_t": 0.08620640997550283,
+    "wilcoxon_W": 1.0,
+    "p_valor_wilcoxon": 0.125,
+    "cohen_d_pareado": -1.012920794740528,
+    "significativo_0.05": false
+  },
+  {
+    "comparacion": "SSM-DTA vs Ensamble",
+    "media_a": 0.8763060178265807,
+    "media_b": 0.9261598102825654,
+    "diferencia_media": -0.04985379245598481,
+    "t_pareado": -0.8491311281191398,
+    "p_valor_t": 0.44363997270284955,
+    "wilcoxon_W": 4.0,
+    "p_valor_wilcoxon": 0.4375,
+    "cohen_d_pareado": -0.37974298485709596,
+    "significativo_0.05": false
+  },
+  {
+    "comparacion": "SubMDTA vs Ensamble",
+    "media_a": 1.1263238609945787,
+    "media_b": 0.9261598102825654,
+    "diferencia_media": 0.20016405071201318,
+    "t_pareado": 3.6268787255466255,
+    "p_valor_t": 0.02222125160406925,
+    "wilcoxon_W": 0.0,
+    "p_valor_wilcoxon": 0.0625,
+    "cohen_d_pareado": 1.6219894752940116,
+    "significativo_0.05": true
+  }
+]

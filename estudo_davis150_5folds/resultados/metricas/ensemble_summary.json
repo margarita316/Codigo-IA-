@@ -1,0 +1,43 @@
+{
+  "per_fold": [
+    {
+      "fold": 0,
+      "rmse_ssmdta": 0.6363915580649215,
+      "rmse_submdta": 0.9426650504025984,
+      "rmse_ensemble": 0.739063040887111,
+      "pearson_ensemble": 0.7051319201672054
+    },
+    {
+      "fold": 1,
+      "rmse_ssmdta": 0.7312152072447002,
+      "rmse_submdta": 1.3073084709117686,
+      "rmse_ensemble": 0.9118464446912771,
+      "pearson_ensemble": 0.4916761433772478
+    },
+    {
+      "fold": 2,
+      "rmse_ssmdta": 0.5770557982793489,
+      "rmse_submdta": 0.4734350109126208,
+      "rmse_ensemble": 0.4146016265917413,
+      "pearson_ensemble": 0.5772890396003296
+    },
+    {
+      "fold": 3,
+      "rmse_ssmdta": 1.2505141374477298,
+      "rmse_submdta": 1.4200961020523577,
+      "rmse_ensemble": 1.2725250859832342,
+      "pearson_ensemble": 0.20430935848841372
+    },
+    {
+      "fold": 4,
+      "rmse_ssmdta": 1.1863533880962032,
+      "rmse_submdta": 1.488114670693548,
+      "rmse_ensemble": 1.2927628532594642,
+      "pearson_ensemble": 0.06298406324582788
+    }
+  ],
+  "rmse_mean_ssmdta": 0.8763060178265807,
+  "rmse_mean_submdta": 1.1263238609945787,
+  "rmse_mean_ensemble": 0.9261598102825654,
+  "rmse_std_ensemble": 0.33204473920992716
+}
