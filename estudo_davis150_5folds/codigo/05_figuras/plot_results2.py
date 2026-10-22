@@ -4,7 +4,6 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
-# --- dados por fold (pareados, precisão completa) ---
 folds = ["Fold 0", "Fold 1", "Fold 2", "Fold 3", "Fold 4"]
 ssm = np.array([0.6363915580649215, 0.7312152072447002, 0.5770557982793489, 1.2505141374477298, 1.1863533880962032])
 sub = np.array([0.9426650504025984, 1.3073084709117686, 0.4734350109126208, 1.4200961020523577, 1.488114670693548])
@@ -13,11 +12,10 @@ ens = np.array([0.739063040887111, 0.9118464446912771, 0.4146016265917413, 1.272
 means = [ssm.mean(), sub.mean(), ens.mean()]
 stds = [ssm.std(ddof=0), sub.std(ddof=0), ens.std(ddof=0)]
 
-# --- paleta validada (dataviz skill) ---
 COL_SSM = "#2a78d6"
 COL_SUB = "#eb6834"
 COL_ENS = "#1baf7a"
-FOLD_COLORS = ["#c3c2b7", "#9e9c92", "#7a786f", "#565550", "#33322f"]  # linhas por fold, do claro ao escuro
+FOLD_COLORS = ["#c3c2b7", "#9e9c92", "#7a786f", "#565550", "#33322f"]
 
 INK_PRIMARY = "#0b0b0b"
 INK_SECONDARY = "#52514e"
@@ -33,16 +31,14 @@ fig, ax = plt.subplots(figsize=(8.5, 6), facecolor="white")
 ax.set_facecolor(SURFACE)
 
 x = np.array([0, 1, 2])
-data = np.vstack([ssm, sub, ens])  # 3 metodos x 5 folds
+data = np.vstack([ssm, sub, ens])
 
-# linhas finas por fold (comparacao pareada)
 for i in range(5):
     ax.plot(x, data[:, i], color=FOLD_COLORS[i], linewidth=1.3, alpha=0.85,
             marker="o", markersize=5, markerfacecolor=FOLD_COLORS[i],
             markeredgecolor="white", markeredgewidth=0.6, zorder=2,
             label=folds[i])
 
-# media +/- DP por metodo, em destaque
 method_colors = [COL_SSM, COL_SUB, COL_ENS]
 for xi, m, s, c in zip(x, means, stds, method_colors):
     ax.errorbar(xi, m, yerr=s, fmt="D", color=c, markersize=11,

@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 methods = ["SSM-DTA", "SubMDTA"]
-params_m = [177.85, 44.47]     # milhoes de parametros
-time_min = [95, 8]             # minutos totais (5 folds x 25 epocas)
+params_m = [177.85, 44.47]
+time_min = [95, 8]
 
 COL_SSM = "#2a78d6"
 COL_SUB = "#eb6834"
